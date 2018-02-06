@@ -1,0 +1,117 @@
+/**
+**AUTHER : ARJUN VENUGOPAL
+**TEMPLATE : TANGENT
+**VERSION : 2.0
+**/
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 100vh;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container {
+  /* background: rgba(101, 47, 142, 0.64); */
+  /* background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); */
+  background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.3) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.3) 0%, rgba(125, 46, 185, 0.45) 100%);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+#about{
+  display: block;
+  padding-top:130px;
+  margin-top:-100px;
+}
+#contact{
+  display: block;
+  padding-top:110px;
+  margin-top:-100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.header{
+  padding-top: 15%;
+}
+.nav{
+  position: fixed;
+  color: #fff;
+  background-color: #e51c23 !important;;
+}
+.input{
+  width: 90px;
+}
+nav{
+  position:fixed;
+  right:0;
+  left:0;
+  z-index:1030;
+}
+.purple-nav{
+  /* background: rgba(101, 47, 142, 0.64); */
+  /* background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); */
+  background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);
+
+}
+.mob-nav-img{
+  margin: 0;
+  padding-top: 160px;
+  padding: 10px;
+  height: 30vh;
+  background-image: url('gfx/template_71.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.side-nav{
+  width: 300px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+::-moz-scrollbars {
+  display: none;
+} 
